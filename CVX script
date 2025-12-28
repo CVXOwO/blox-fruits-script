@@ -1025,4 +1025,4 @@ task.spawn(function()
     end
 end)
 
-print("🚀 腳本加載完成！玄丛腳本 v6.4 超大版已就緒。")
+print("🚀 腳本加載完成！CVX腳本 v6.4 超大版已就緒。")
