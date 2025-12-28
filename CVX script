@@ -758,7 +758,7 @@ local function toggleUI()
         mainFrame.Visible = true
         sidebarButton.Text = "📂"
         sidebarButton.BackgroundColor3 = Color3.fromRGB(60, 90, 140)
-        buttonHint.Text = "關閉玄丛腳本"
+        buttonHint.Text = "關閉CVX腳本"
         
         -- 動畫效果
         mainFrame.Position = UDim2.new(0.5, -175, 0.5, -160)
@@ -784,7 +784,7 @@ local function toggleUI()
         fadeOut.Completed:Wait()
         mainFrame.Visible = false
         
-        showNotification("📱 玄丛腳本已隱藏", Color3.fromRGB(150, 150, 150), 1.5)
+        showNotification("📱 CVX腳本已隱藏", Color3.fromRGB(150, 150, 150), 1.5)
     end
 end
 
