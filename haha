@@ -1,7 +1,7 @@
--- 玄丛腳本 - 快速攻擊優化版
+-- CVX腳本 - 快速攻擊優化版
 print("🎮 =================================")
-print("🎮 玄丛腳本 - 快速攻擊優化版")
-print("🎮 秦始皇创作")
+print("🎮 CVX腳本 - 快速攻擊優化版")
+print("🎮 CVX创作")
 print("🎮 =================================")
 
 -- 檢測設備類型
@@ -113,7 +113,7 @@ buttonHint.Size = UDim2.new(0, 100, 0, 25)
 buttonHint.Position = UDim2.new(0, 55, 0, 10)
 buttonHint.BackgroundColor3 = Color3.fromRGB(30, 40, 60)
 buttonHint.BackgroundTransparency = 0.2
-buttonHint.Text = "開啟玄丛腳本"
+buttonHint.Text = "開啟CVX腳本"
 buttonHint.TextColor3 = Color3.fromRGB(200, 230, 255)
 buttonHint.Font = Enum.Font.Gotham
 buttonHint.TextSize = 11
@@ -181,7 +181,7 @@ dragButton.Position = UDim2.new(0, 0, 0, 0)
 dragButton.BackgroundColor3 = Color3.fromRGB(40, 60, 90)
 dragButton.BackgroundTransparency = 0.2
 dragButton.BorderSizePixel = 0
-dragButton.Text = "❄️ 玄丛腳本 (拖動我)"
+dragButton.Text = "❄️ CVX腳本 (拖動我)"
 dragButton.TextColor3 = Color3.fromRGB(200, 230, 255)
 dragButton.Font = Enum.Font.GothamBold
 dragButton.TextSize = 14
@@ -355,7 +355,7 @@ authorLabel.Name = "AuthorLabel"
 authorLabel.Size = UDim2.new(1, -20, 0, 18)
 authorLabel.Position = UDim2.new(0, 10, 0, 122)
 authorLabel.BackgroundTransparency = 1
-authorLabel.Text = "👑 秦始皇创作"
+authorLabel.Text = "👑 CVX创作"
 authorLabel.TextColor3 = Color3.fromRGB(180, 180, 220)
 authorLabel.Font = Enum.Font.Gotham
 authorLabel.TextSize = 10
@@ -367,7 +367,7 @@ versionLabel.Name = "VersionLabel"
 versionLabel.Size = UDim2.new(1, -20, 0, 14)
 versionLabel.Position = UDim2.new(0, 10, 0, 140)
 versionLabel.BackgroundTransparency = 1
-versionLabel.Text = "❄️ 玄丛腳本 v6.0"
+versionLabel.Text = "❄️ CVX腳本 v6.0"
 versionLabel.TextColor3 = Color3.fromRGB(150, 200, 255)
 versionLabel.Font = Enum.Font.Gotham
 versionLabel.TextSize = 9
@@ -664,7 +664,7 @@ local function toggleUI()
         mainFrame.Visible = true
         sidebarButton.Text = "📂"
         sidebarButton.BackgroundColor3 = Color3.fromRGB(60, 90, 140)
-        buttonHint.Text = "關閉玄丛腳本"
+        buttonHint.Text = "關閉CVX腳本"
         
         -- 動畫效果
         mainFrame.Position = UDim2.new(0.5, -120, 0.5, -80)
@@ -675,12 +675,12 @@ local function toggleUI()
         })
         fadeIn:Play()
         
-        showNotification("📱 玄丛腳本已開啟", Color3.fromRGB(50, 150, 200), 1.5)
+        showNotification("📱 CVX腳本已開啟", Color3.fromRGB(50, 150, 200), 1.5)
     else
         -- 隱藏UI
         sidebarButton.Text = "⚙️"
         sidebarButton.BackgroundColor3 = Color3.fromRGB(40, 60, 90)
-        buttonHint.Text = "開啟玄丛腳本"
+        buttonHint.Text = "開啟CVX腳本"
         
         local fadeOut = tweenService:Create(mainFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
             BackgroundTransparency = 1
@@ -690,7 +690,7 @@ local function toggleUI()
         fadeOut.Completed:Wait()
         mainFrame.Visible = false
         
-        showNotification("📱 玄丛腳本已隱藏", Color3.fromRGB(150, 150, 150), 1.5)
+        showNotification("📱 CVX腳本已隱藏", Color3.fromRGB(150, 150, 150), 1.5)
     end
 end
 
@@ -786,10 +786,10 @@ end
 task.wait(0.5)
 
 -- 顯示啟動通知
-showNotification("✅ 玄丛腳本已加載 v6.0\n⚡ 快速攻擊代碼已更新\n🅿️ 皮腳本可用\n🖱️ 拖動系統已修復", Color3.fromRGB(50, 150, 200), 3)
+showNotification("✅ CVX腳本已加載 v6.0\n⚡ 快速攻擊代碼已更新\n🅿️ 皮腳本可用\n🖱️ 拖動系統已修復", Color3.fromRGB(50, 150, 200), 3)
 
 print("🎮 =================================")
-print("🎮 玄丛腳本 - 快速攻擊優化版 v6.0")
+print("🎮 CVX腳本 - 快速攻擊優化版 v6.0")
 print("🎮 設備: " .. deviceType)
 print("🎮 快速攻擊: ✅ 使用新版代碼")
 print("🎮 拖動系統: ✅ 已修復")
